@@ -34,7 +34,7 @@ function gotResult(error , result){
 function draw(){
     image( video , 0 , 0 , canvas.width , canvas.height);
 
-    if(objects.length = 0){
+    if(objects.length == 0){
         alarm.play();
     }
 
